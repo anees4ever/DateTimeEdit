@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="DateTimeEdit">
+        <attr name="label" format="reference" />
+        <attr name="nextFocus" format="reference" />
+        <attr name="previousFocus" format="reference" />
+
+        <attr name="showHours" format="boolean" />
+        <attr name="showMinutes" format="boolean" />
+        <attr name="showSeconds" format="boolean" />
+
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textBold" format="boolean" />
+        <attr name="textWidth" format="dimension" />
+        <attr name="textHeight" format="dimension" />
+    </declare-styleable>
+</resources>

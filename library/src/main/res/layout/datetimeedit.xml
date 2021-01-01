@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:inputType="time"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="end|center_vertical"
+        android:text="23"
+        android:hint=""
+        android:tag="H"
+        android:selectAllOnFocus="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=":"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:tag="H"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <EditText
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:inputType="time"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="end|center_vertical"
+        android:text="59"
+        android:hint=""
+        android:tag="M"
+        android:selectAllOnFocus="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=":"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:tag="M"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <EditText
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:inputType="time"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="end|center_vertical"
+        android:text="59"
+        android:hint=""
+        android:tag="S"
+        android:selectAllOnFocus="true"/>
+</LinearLayout>
